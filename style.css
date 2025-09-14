@@ -5,6 +5,9 @@ body {
 .container {
     border: 3px solid #457b9d;
     padding: 10px;
+    display: grid; /* Add this line */
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
 }
 
 .item {
